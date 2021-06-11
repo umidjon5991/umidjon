@@ -1,0 +1,19 @@
+.form-links {
+  width: 255px;
+  margin-top: 50px;
+}
+.form-link {
+  display: flex;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333d4b;
+  border-bottom: 1px solid #333d4b;
+  justify-content: start;
+}
+
+.form-link img {
+  margin-right: 20px;
+}

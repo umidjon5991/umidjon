@@ -1,0 +1,107 @@
+.section-create {
+  display: block;
+  background-image: url(../images/Bitmap.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 100px 86px;
+}
+
+// .section-create-about {
+//   display: block;
+//   background-image: url(../../images-about/Bitmap.jpg);
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   background-position: center;
+//   padding: 80px 86px;
+
+.section-create-about-bgc {
+  display: block;
+  background-image: url(../../images-about/Bitmap.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 80px 70px;
+}
+
+.section-create-plan {
+  display: block;
+  background-image: url(../../images-about/plan.jpg);
+  background-size: 1200px 450px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 80px 86px;
+}
+
+.section-h1 {
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  width: 100%;
+  max-width: 530px;
+  padding: 16 0px;
+  color: #fff;
+}
+.section-paragraf {
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+  width: 100%;
+  max-width: 445px;
+  padding: 16px 0;
+  padding-bottom: 70px;
+  opacity: 0.8;
+}
+
+.section-button {
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+  width: 217px;
+  height: 56px;
+  background-color: #0e8784;
+  border-radius: 7px;
+  border: none;
+}
+@media only screen and (max-width: 420px) {
+  .section-create {
+    width: 100%;
+    max-width: 375px;
+    display: block;
+    background-image: url(../../images/Bit3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px 25px;
+    text-align: center;
+  }
+  .section-h1 {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 30px;
+    width: 300px;
+    margin-left: 10px;
+    padding: 16px 0;
+    color: #fff;
+  }
+  .section-paragraf {
+    font-size: 16px;
+    line-height: 25px;
+    color: #fefcf7;
+    width: 300px;
+    margin-left: 10px;
+    padding: 16px 0;
+    padding-bottom: 70px;
+    opacity: 0.8;
+  }
+  .section-button {
+    font-size: 16px;
+    line-height: 26px;
+    color: #fefcf7;
+    width: 217px;
+    height: 56px;
+    background-color: #0e8784;
+    border-radius: 7px;
+    border: none;
+  }
+}
